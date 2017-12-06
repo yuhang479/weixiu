@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/more/more",
+    "pages/posts/post-detail/post-detail",
+    "pages/fabu/fabu"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "维修单",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "我的",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      }
+    ]
+  }
+}
